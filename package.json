@@ -1,0 +1,28 @@
+{
+  "name": "munin-netstat-detail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/you21979/munin-netstat-detail.git"
+  },
+  "author": "Yuki Akiyama",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/you21979/munin-netstat-detail/issues"
+  },
+  "dependencies": {
+    "bluebird": "3.*",
+    "node-netstat": "1.3.1",
+    "promise-util-task": "0.*",
+    "munin-plugin": "0.0.9"
+  },
+  "bin": {
+    "munin_netstat_detail" : "./bin/netstat_monitor.js"
+  },
+  "homepage": "https://github.com/you21979/munin-netstat-detail#readme"
+}
